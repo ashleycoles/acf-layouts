@@ -7,7 +7,6 @@ Version: 0.0.1
 Author: Ashley Coles
 */
 
-
 function load_layouts($content_field) {
 	if( have_rows($content_field) ):					    
 		while ( have_rows($content_field) ) : the_row();	    
